@@ -1,5 +1,14 @@
 from typing import *
+def countFrequency(n: int, m: int, edges: List[List[int]]):
+    dict={}
+    for i in range(1,len(edges)+1):
+        dict[i]=0
+    for i in edges:
+        if i in dict:
+            dict[i]+=1
+    return dict.values()
 
+'''
 def countFrequency(n: int, m: int, edges: List[List[int]]):
     countt=0
     arr=[]
@@ -10,3 +19,4 @@ def countFrequency(n: int, m: int, edges: List[List[int]]):
                 countt+=1
         arr.append(countt)
     return arr
+'''
