@@ -1,3 +1,4 @@
+'''
 def moveZeros(n: int,  a: [int]) -> [int]:
     # Write your code here.
     ct=0
@@ -9,4 +10,11 @@ def moveZeros(n: int,  a: [int]) -> [int]:
     for i in range(ct):
         a.append(0)
     return a
-
+'''
+def moveZeros(n: int,  a: [int]) -> [int]:
+    l = 0
+    for r in range(len(a)):
+        if a[r]!=0:
+            a[l], a[r] = a[r], a[l]
+            l += 1
+    return a
