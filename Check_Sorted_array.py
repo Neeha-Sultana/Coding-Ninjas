@@ -5,9 +5,7 @@ def isSorted(n: int,  a: [int]) -> int:
         if a[i-1]>a[i]:
             x=False
             break
-        
         x=True
-        
     if x==True:
         return 1
     else:
