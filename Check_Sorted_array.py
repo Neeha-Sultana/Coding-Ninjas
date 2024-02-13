@@ -10,3 +10,6 @@ def isSorted(n: int,  a: [int]) -> int:
         return 1
     else:
         return 0
+
+
+
