@@ -1,4 +1,3 @@
-
 def alpi(x):
     if x>='A' and x<='Z':
         return 1
