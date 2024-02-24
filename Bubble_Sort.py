@@ -1,5 +1,4 @@
 from typing import List
-
 def bubbleSort(arr: List[int], n: int):
     # Your code goes here.
     for i in range(n-1, 0, -1):
