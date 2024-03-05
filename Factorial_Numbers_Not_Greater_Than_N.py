@@ -3,7 +3,6 @@ def factorialNumbers(n: int) -> List[int]:
     # Write your code here
     srr=[]
     s=1
-
     array_fact(s,n,srr)
 
     return srr
