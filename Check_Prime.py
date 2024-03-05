@@ -4,7 +4,6 @@ from sys import *
 from os import *
 
 
-
 n = int(input())
 counti = 0
 
