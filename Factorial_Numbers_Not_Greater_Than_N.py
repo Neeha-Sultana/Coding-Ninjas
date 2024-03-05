@@ -1,6 +1,5 @@
 from typing import *
 
-
 def factorialNumbers(n: int) -> List[int]:
 
     # Write your code here
