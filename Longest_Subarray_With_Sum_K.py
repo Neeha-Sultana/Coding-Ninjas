@@ -3,7 +3,6 @@ def longestSubarrayWithSumK(a: [int], k: int) -> int:
     sum_map = {}  # To store the cumulative sum and its corresponding index
     max_len = 0
     current_sum = 0
-
     for i in range(n):
         current_sum += a[i]
 
