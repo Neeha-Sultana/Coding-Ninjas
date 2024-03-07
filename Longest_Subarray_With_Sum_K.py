@@ -7,7 +7,6 @@ def longestSubarrayWithSumK(a: [int], k: int) -> int:
         current_sum += a[i]
         if current_sum == k:
             max_len = i + 1  # Update max_len if the sum equals k
-
         if current_sum - k in sum_map:
             # If there is a subarray with sum (current_sum - k) ending at index sum_map[current_sum - k],
             # then the sum of the subarray between that index and the current index is k
