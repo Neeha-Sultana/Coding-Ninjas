@@ -10,6 +10,5 @@ def dataTypes(type: str):
         return 8
     elif type=='Character':
         return 1
-
     type=input()
     print(dataTypes(type))
