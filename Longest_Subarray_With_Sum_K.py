@@ -11,7 +11,6 @@ def longestSubarrayWithSumK(a: [int], k: int) -> int:
             # If there is a subarray with sum (current_sum - k) ending at index sum_map[current_sum - k],
             # then the sum of the subarray between that index and the current index is k
             max_len = max(max_len, i - sum_map[current_sum - k])
-
         if current_sum not in sum_map:
             sum_map[current_sum] = i  # Store the index of the cumulative sum in the map
 
