@@ -6,7 +6,7 @@ def getSingleElement(arr : List[int]) -> int:
             dict1[arr[i]]=1
         else:
             dict1[arr[i]]+=1
-    
+
     for key,values in dict1.items():
         if values==1:
             return key
