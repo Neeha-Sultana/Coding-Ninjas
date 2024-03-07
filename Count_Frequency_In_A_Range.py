@@ -7,7 +7,6 @@ def countFrequency(n: int, m: int, edges: List[List[int]]):
         if i in dict:
             dict[i]+=1
     return dict.values()
-
 '''
 def countFrequency(n: int, m: int, edges: List[List[int]]):
     countt=0
