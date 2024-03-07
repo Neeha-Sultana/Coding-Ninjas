@@ -6,5 +6,4 @@ def largestElement(arr: [], n: int) -> int:
     for i in range(1,len(arr)):
         if arr[i]>lar:
             lar=arr[i]
-
     return lar
