@@ -1,5 +1,4 @@
 from typing import *
-
 def getSingleElement(arr : List[int]) -> int:
     dict1={}
     for i in range(len(arr)):
