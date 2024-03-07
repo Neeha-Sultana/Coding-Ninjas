@@ -1,4 +1,3 @@
-
 def longestSubarrayWithSumK(a: [int], k: int) -> int:
     n = len(a)
     sum_map = {}  # To store the cumulative sum and its corresponding index
