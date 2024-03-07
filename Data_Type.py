@@ -1,5 +1,4 @@
 from typing import *
-
 def dataTypes(type: str):
     if type=='Long':
         return 8
