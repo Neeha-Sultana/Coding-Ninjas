@@ -17,7 +17,6 @@ def countFrequency(n: int, m: int, edges: List[List[int]]):
             if edges[j]==i:
                 countt+=1
         arr.append(countt)
-
     return arr
 '''
 
