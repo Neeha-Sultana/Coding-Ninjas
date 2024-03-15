@@ -34,3 +34,4 @@ def read(n: int, book: [int], target: int) -> str:
             leftt += 1
         else:
             rightt -= 1
+    return "NO"
