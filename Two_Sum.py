@@ -21,3 +21,5 @@ def read(n: int, book: [int], target: int) -> str:
             dict1[x]=i
     return "NO"
 """
+#Optimal
+def read(n: int, book: [int], target: int) -> str:
