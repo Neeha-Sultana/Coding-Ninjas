@@ -26,3 +26,11 @@ def read(n: int, book: [int], target: int) -> str:
     leftt = 0
     rightt = n - 1
     book.sort()
+    while leftt < rightt:  
+        summ = book[leftt] + book[rightt]
+        if summ == target:
+            return "YES"
+        elif summ < target:
+            leftt += 1
+        else:
+            rightt -= 1
