@@ -8,3 +8,16 @@ def read(n: int, book: [int], target: int) -> str:
             if x+book[j]==target:
                 return "YES"
     return "NO"
+        
+#Better
+def read(n: int, book: [int], target: int) -> str:
+    dict1={}
+    for i in range(n):
+        x=book[i]
+        y=target-x
+        if y in dict1:
+            return "YES"
+        else:
+            dict1[x]=i
+    return "NO"
+"""
