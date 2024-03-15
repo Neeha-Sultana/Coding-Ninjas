@@ -23,3 +23,6 @@ def read(n: int, book: [int], target: int) -> str:
 """
 #Optimal
 def read(n: int, book: [int], target: int) -> str:
+    leftt = 0
+    rightt = n - 1
+    book.sort()
