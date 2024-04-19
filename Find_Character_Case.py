@@ -7,7 +7,6 @@ def alpi(x):
         return -1
 
 
-
 x=input()
 print(alpi(x))
 
