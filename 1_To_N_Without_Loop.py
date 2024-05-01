@@ -6,7 +6,7 @@ def printNos(x: int) -> List[int]:
         return
     else:
 
-        
+       
         #l.append(x)
         printNos(x-1)
         l.append(x)
