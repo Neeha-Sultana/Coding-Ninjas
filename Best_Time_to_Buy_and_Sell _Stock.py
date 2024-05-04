@@ -10,7 +10,7 @@ class Solution:
                         diff=(prices[j]-prices[i])
 
 
-                        
+                       
         return diff
 """
 #Optimal
