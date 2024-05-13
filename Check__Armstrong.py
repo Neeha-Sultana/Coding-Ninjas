@@ -11,7 +11,6 @@ while numb>0:
     dig=numb%10
     summ=summ+dig**x
     numb=numb//10
-
 if summ==int(n):
 
     print('true')
