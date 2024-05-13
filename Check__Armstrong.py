@@ -14,7 +14,7 @@ while numb>0:
 
 if summ==int(n):
 
-    
+
     print('true')
 else:
     print("false")
