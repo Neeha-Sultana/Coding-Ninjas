@@ -7,8 +7,7 @@ class Solution:
             for j in range(i+1,len(prices)):
                 if prices[i]<prices[j]:
                     if (prices[j]-prices[i])>diff:
-                        diff=(prices[j]-prices[i])
-                    
+                        diff=(prices[j]-prices[i])                    
         return diff
 """
 #Optimal
