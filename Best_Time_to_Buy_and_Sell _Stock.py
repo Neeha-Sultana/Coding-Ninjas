@@ -9,7 +9,6 @@ class Solution:
                     if (prices[j]-prices[i])>diff:
                         diff=(prices[j]-prices[i])
 
-
                        
         return diff
 """
