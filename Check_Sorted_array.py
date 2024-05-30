@@ -1,3 +1,5 @@
+
+
 def isSorted(n: int,  a: [int]) -> int:
     # Write youcode here.
     for i in range(1,len(a)):
